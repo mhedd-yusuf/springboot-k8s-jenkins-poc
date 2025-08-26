@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: springboot-k8s-jenkins-poc
+
+server:
+  port: 3030
