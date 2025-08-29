@@ -16,7 +16,7 @@ public class TestController {
         return "Endpoint 2";
     }
     @GetMapping("/third")
-    public String third()
+    public String third(){
         return "Endpoint 3";
     }
 }
