@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: springboot-k8s-jenkins-poc
+  labels:
+    app: springboot-k8s-jenkins-poc
+  annotations:
+    created-by: ci-deploy
+spec:
+  containers:
+    - name: springboot-k8s-jenkins-poc
+      image: springboot-k8s-jenkins-poc:latest
