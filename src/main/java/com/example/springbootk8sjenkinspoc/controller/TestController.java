@@ -8,11 +8,15 @@ public class TestController {
 
     @GetMapping("/first")
     public String first() {
-        return "Hello, World";
+        return "Endpoint 1";
     }
 
     @GetMapping("/second")
     public String second() {
-        return "Hello, World";
+        return "Endpoint 2";
+    }
+    @GetMapping("/third")
+    public String third() {
+        return "Endpoint 3";
     }
 }
